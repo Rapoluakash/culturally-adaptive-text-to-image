@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 class CFG:
-    device = "cuda"
+    device = "cpu"
     seed = 42
     generator = torch.Generator(device).manual_seed(seed)
     image_gen_steps = 35
