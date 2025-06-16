@@ -1,0 +1,21 @@
+name: culturally-adaptive-imagegen
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - huggingface
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision
+  - diffusers>=0.25.0
+  - transformers>=4.40.0
+  - accelerate>=0.21.0
+  - tqdm
+  - pandas
+  - numpy
+  - matplotlib
+  - opencv
+  - pip
+  - pip:
+      - python-dotenv
